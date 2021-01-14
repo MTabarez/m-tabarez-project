@@ -461,7 +461,7 @@ a:hover {
 	cursor: pointer;
 }
 .logo-wrap img{
-	height:12px;
+	height:45px;
 	width:auto;
 	display:block;
 	cursor: pointer;
@@ -2777,11 +2777,30 @@ figure.vimeo a img, figure.youtube a img {
 
 
 
+/* custom */
 
+p.lead-big.color-white.mb-0.about-me:before {
+    display: none;
+}
 
+/* formbutton chat */
 
+#formbutton-button {
+	box-shadow: rgb(245 11 130 / 50%) 0px 1px 2px 0px inset, rgb(133 74 210 / 10%) 0px -4px 8px 0px inset, #4f78a5 0.3em 0.3em 1.4em !important;
+	background: rgb(20 21 26) !important;
+}
 
+#formbutton-title {
+    background: #121317 !important;
+}
 
+/* footer copyright */
 
+.scroll-to-top {
+    bottom: 260px;
+}
 
+.copyr {
+    bottom: 100px;
+}
 
